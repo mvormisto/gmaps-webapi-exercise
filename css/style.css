@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  font-family: Tahoma;
+  color: white;
+  margin: 0 auto;
+}
+a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+}
+ul {
+list-style-position: inside;
+}
+h3 {
+  color: black;
+}
+h1, p, code, li {
+  text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#container > h1 {
+  text-align: center;
+}
+#map {
+  margin: 0 auto;
+  width: 100%;
+  height: 40%;
+}
+#bigmap {
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  left: 0;
+  z-index: -2;
+  height: 60%;
+  width: 100%;
+}
+#coordinates {
+  background-color: #242F3E;
+  display: inline-block;
+  position: relative;
+  top: -29px;
+  z-index: 2;
+  color: #d59563;
+  padding: 7px;
+  font-size: 75%;
+  border-top: 1px solid #d59563;
+  border-right: 1px solid #d59563;
+}
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 120%;
+}
+#container > * {
+  padding: 0 10px;
+}
+.infoBoxP {
+  color: black;
+  text-shadow: none;
+}
